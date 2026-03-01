@@ -14,40 +14,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.00
   subtype: lunarLanderFree
-  lastShownTimestamp: 1754680265
+  lastShownTimestamp: 1772360375
   lastUpdateResponse:
     version: 1.00
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1754764621
+  checkedLastUpdateTimestamp: 1772360375
   lastQOTDResponse:
-    questionId: 209
-    questionText: Can Color ever be null?
-    answerA: Yes, always
-    answerB: No
-    answerC: Yes, as Nullable
+    questionId: 277
+    questionText: 'What is the value stored in percentage?
+
+      <p>int health =
+      25;</p>
+
+      <p>int healthMax = 100;</p>
+
+      <p>float percentage = health
+      / healthMax;</p>'
+    answerA: 0.25f
+    answerB: 0
+    answerC: 2.5f
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1754764621
+  lastQotdTimestamp: 1772360375
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
-    topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
-    topLink: summer2025bundle
-    bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
-      OFF right now!
-    bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1754764621
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/gameDevReport_2.png
+    topText: Stay up to date with the latest in Game Dev straight to your inbox!
+    topLink: gamedevreport
+    bottomText: My 10+ Years of C# Knowledge in 1 Course!
+    bottomLink: csharpcourse
+  lastDynamicHeaderTimestamp: 1772360375
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1754764621
+  websiteLatestMessageTimestamp: 1772360375
   websiteLatestVideos:
     videos:
-    - youTubeId: 7xz5Xh4E_B0
-      title: I NEED your HELP!
-    - youTubeId: y-w3vnh_f4Q
-      title: Are Old Tutorials OBSOLETE?
-    - youTubeId: DaKW4kqFlao
-      title: How to LEARN new Skills on HARD MODE!
-    - youTubeId: ubBS7vTQlVo
-      title: Cooking is HARDER than Programming!
-  websiteLatestVideosTimestamp: 1754764621
+    - youTubeId: RXf1jsXxWkg
+      title: Learn how to write PRO level code with this DEEP DIVE!
+    - youTubeId: Lm_YTrn9KYc
+      title: Unity HDRP is DEAD!
+    - youTubeId: Ah2WF-_rZig
+      title: Unity EXPLAINED in 200 SECONDS!
+    - youTubeId: FdyHnVIoQko
+      title: TOP 10 NEW Systems and Tools FEBRUARY 2026! | Unity Asset Store
+  websiteLatestVideosTimestamp: 1772360375
