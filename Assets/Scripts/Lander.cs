@@ -32,9 +32,29 @@ public class Lander : MonoBehaviour
     
     }
 
-
     private void Update()
     {
         
     }
+    private void OnCollisionEnter2D(Collision2D collision2D)
+    {
+       
+        float softlandingVelocityMagnitude = 4f;
+        if(collision2D.relativeVelocity.magnitude > softlandingVelocityMagnitude)
+        {
+            Debug.Log("Hard landing");
+        }
+        float dotVector = Vector2.Dot(Vector2.up, transform.up);
+        float minDotVector = .90f;
+        if (dotVector < minDotVector)
+        {
+            Debug.Log("Lander on a too steep angle!");
+            return;
+
+        }
+
+
+    }
+
+
 }
