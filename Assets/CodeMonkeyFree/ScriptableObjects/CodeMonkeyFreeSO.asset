@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.00
   subtype: lunarLanderFree
-  lastShownTimestamp: 1772615710
+  lastShownTimestamp: 1772709013
   lastUpdateResponse:
     version: 1.00
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1772615710
+  checkedLastUpdateTimestamp: 1772709013
   lastQOTDResponse:
     questionId: 278
     questionText: How should you store the health of each unit in your game?
@@ -27,26 +27,26 @@ MonoBehaviour:
     answerC: public static int health;
     answerD: private int h;
     answerE: 
-  lastQotdTimestamp: 1772615710
+  lastQotdTimestamp: 1772709013
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/gameDevReport_2.png
-    topText: Stay up to date with the latest in Game Dev straight to your inbox!
-    topLink: gamedevreport
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleMar26Audio.png
+    topText: Awesome HumbleBundle with thousands of SFX and Music, 99% OFF!
+    topLink: humblebundle
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1772615710
+  lastDynamicHeaderTimestamp: 1772709013
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1772615710
+  websiteLatestMessageTimestamp: 1772709013
   websiteLatestVideos:
     videos:
+    - youTubeId: PZnS3TwucQg
+      title: The Biggest Indie MISTAKE! (and 7 other tips)
     - youTubeId: uNNz1kOsLVw
       title: Steam's 30% Cut Isn't Even the Biggest Problem!
     - youTubeId: XShVX_PBi1o
       title: BEST NEW Visual Assets to INSPIRE YOU! (FEBRUARY 2026)
     - youTubeId: RXf1jsXxWkg
       title: Learn how to write PRO level code with this DEEP DIVE!
-    - youTubeId: Lm_YTrn9KYc
-      title: Unity HDRP is DEAD!
-  websiteLatestVideosTimestamp: 1772615710
+  websiteLatestVideosTimestamp: 1772709013

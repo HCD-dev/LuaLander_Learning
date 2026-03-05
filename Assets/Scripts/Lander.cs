@@ -41,6 +41,7 @@ public class Lander : MonoBehaviour
        if (!collision2D.gameObject.TryGetComponent(out LandingPad landingPad))
         {
             Debug.Log("Crashed!");
+            return;
         }
         float softlandingVelocityMagnitude = 4f;
         float relativeVelocityMagnitude = collision2D.relativeVelocity.magnitude;
@@ -67,7 +68,10 @@ public class Lander : MonoBehaviour
 
         Debug.Log("Landing angle score: " + landingAngleScore);
         Debug.Log("Landing speed score: " + landingSpeedScore);
-        
+
+        int score = Mathf.RoundToInt(landingAngleScore + landingSpeedScore) * landingPad.GetScoreMultiplier;
+
+        Debug.Log("Total score: " + score);
     }
 
 
